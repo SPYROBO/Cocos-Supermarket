@@ -40,7 +40,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
                         require_once('info_proveedores.php');
                         break;
                     case 'stockBajo':
-                        require_once('bajo_stock.php');
+                        require_once('php/bajo_stock.php');
                         break; 
                     default:
                         echo 'Not foun 404';
